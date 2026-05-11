@@ -1,0 +1,5 @@
+a) El símbolo - delante de un atributo indica que es privado; el símbolo + delante de un método indica que es público.
+
+b) El tipo de dato `disponible` es booleano (`bool`) y puede tener dos valores: `true` o `false`.
+
+c) El método `ToString()` en una clase sirve para devolver una representación en forma de cadena del objeto, útil para mostrar información legible sobre el objeto cuando se convierte a string o se imprime.
