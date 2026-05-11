@@ -1,3 +1,4 @@
+// Clase Libro implementada según el diagrama
 public class Libro
 {
     private string titulo;
@@ -13,28 +14,10 @@ public class Libro
         this.disponible = disponible;
     }
 
-    public string getTitulo()
-    {
-        return titulo;
-    }
+    public string getTitulo() => titulo;
+    public string getAutor() => autor;
+    public int getAnyo() => anyo;
+    public bool isDisponible() => disponible;
+    public override string ToString() => $"{titulo} - {autor} ({anyo})";
 
-    public string getAutor()
-    {
-        return autor;
-    }
-
-    public int getAnyo()
-    {
-        return anyo;
-    }
-
-    public bool isDisponible()
-    {
-        return disponible;
-    }
-
-    public override string ToString()
-    {
-        return $"{titulo} - {autor} ({anyo})";
-    }
 }
